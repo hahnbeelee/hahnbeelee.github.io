@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Switch, Route, Router } from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 import NavBar from '../components/NavBar';
 import LandingPage from './LandingPage';
@@ -15,14 +15,14 @@ const App = () => (
     >
       <meta name="description" content="Hahnbee Lee's portfolio" />
     </Helmet>
-    <Router history={history}>
+    <BrowserRouter history={history}>
       <div>
         <NavBar />
         <Switch>
           <Route exact path="/" component={LandingPage} />
         </Switch>
       </div>
-    </Router>
+    </BrowserRouter>
   </div>
   );
 
