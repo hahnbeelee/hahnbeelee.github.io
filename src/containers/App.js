@@ -6,7 +6,10 @@ import NavBar from '../components/NavBar';
 import LandingPage from './LandingPage';
 import history from '../history';
 
-import '../uikit/css/uikit.min.css';
+import '../styles/uikit.scss';
+import '../styles/index.css';
+import { Button } from 'antd';
+
 const App = () => (
   <div>
     <Helmet

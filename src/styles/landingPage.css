@@ -6,7 +6,7 @@
 @media only screen and (max-width: 600px) {
     /* For mobile phones: */
     .parent{
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
 
     .headshot{
