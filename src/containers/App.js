@@ -3,12 +3,10 @@ import { Helmet } from 'react-helmet';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 import NavBar from '../components/NavBar';
-import LandingPage from './LandingPage';
+import LandingPage from './LandingPage/LandingPage';
 import history from '../history';
 
-import '../styles/uikit.scss';
-import '../styles/index.css';
-import { Button } from 'antd';
+import '../styles/main.scss';
 
 const App = () => (
   <div>

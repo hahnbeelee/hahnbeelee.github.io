@@ -1,9 +1,8 @@
 import React from 'react';
 
-import headshot from '../images/headshot.png';
-import '../styles/landingPage.css';
+import headshot from '../../images/headshot.png';
 
-import MainContent from '../components/MainContent';
+import MainContent from './MainContent';
 
 class LandingPage extends React.PureComponent {
     render() {
