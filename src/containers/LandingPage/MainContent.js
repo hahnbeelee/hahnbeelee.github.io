@@ -57,7 +57,6 @@ class MainContent extends React.Component {
                     <TabPane tab="Classes" key="3">
                         {/* most relevant */}
                         <Row>
-
                             <MyCard 
                                 title="Intro Design & Prog for Web"
                                 description="Skills: HTML, CSS, javascript, jQuery"
