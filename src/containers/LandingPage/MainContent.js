@@ -2,10 +2,10 @@ import React, {useState} from 'react'
 
 import { Tabs, Row, Typography , Radio, Divider } from 'antd'
 import MyCard from '../../components/MyCard'
+
+// data
 import content from '../../data/content.json'
 
-
-// e.target.checked
 const MainContent = () => {
     //components
     const { TabPane } = Tabs
@@ -32,6 +32,7 @@ const MainContent = () => {
                     <MyCard 
                         title= {content[i].title}
                         description={content[i].description}
+                        src={content[i].src}
                     />
                 )
             }
@@ -136,16 +137,3 @@ const MainContent = () => {
 }
 
 export default MainContent
-
-// <MyCard 
-//     title="Intro to Data Science"
-//     description="Skills: jupyter notebooks,......"
-// /> {/* final project, psets = password protected */}
-// <MyCard 
-//     title="Functional Programming"
-//     description="Language: OCaml"
-// /> {/* final project, psets = pw protected */}
-// <MyCard 
-//     title="Obj-Oriented Programming"
-//     description="Language: java"
-// /> {/* psets = pw protected */}

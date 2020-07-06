@@ -3,7 +3,11 @@ import React from 'react';
 import { Card, Col } from 'antd';
 const { Meta } = Card;
 const MyCard  = (props) => {
-    const meta = {title: props.title, description: props.description};
+    let {src, title, description} = props
+    const meta = {title: title, description: description};
+    if(src === undefined) {
+        src = "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+    }
     return (
         <Col span={8} className="my-card">
             <Card
@@ -11,8 +15,8 @@ const MyCard  = (props) => {
                 style={{ width: 300 }}
                 cover={
                     <img
-                        alt="example"
-                        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                        alt={title}
+                        src={src}
                     />
                 }
             >
