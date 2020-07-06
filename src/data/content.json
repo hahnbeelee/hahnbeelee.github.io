@@ -1,62 +1,127 @@
-{   "experiences":
-    [
-        {
-            "title": "Leidos",
-            "description": "UI Development Intern"
-        },
-        {
-            "title": "Scriyb LLC",
-            "description": "Algorithm Developer"
-        },
-        {
-            "title": "Vera.Zone",
-            "description": "Full Stack Developer"
-        }
-    ],
-    "projects": 
-    [
-        {
-            "title": "Cornell Rocketry Team",
-            "description": "Engineering Project Team"
-        },
-        {
-            "title": "Medium Design Collective",
-            "description": "Restroom Signage Redesign"
-        },
-        {
-            "title": "PWC Mutual Aid Group" ,
-            "description": "Web Developer"
-        },
-        {
-            "title": "React Components",
-            "description": "Web Developer"
-        },
-        {
-            "title": "Cornell Eastern Music Ensemble",
-            "description": "Webmaster"
-        }
-    ],
-    "classes":
-    [
-        {
-            "title": "Intro Design & Prog for Web",
-            "description": "Skills: HTML, CSS, javascript, jQuery"
-        },
-        {
-            "title": "Intmd. Design & Prog for Web",
-            "description":"Skills: HTML, CSS,PHP, MySQL"
-        },
-        {
-            "title": "Intro to Data Science",
-            "description": "Skills: jupyter notebooks,......"
-        },
-        {
-            "title": "Functional Programming",
-            "description": "Language: OCaml"
-        },
-        {
-            "title": "Obj-Oriented Programming",
-            "description": "Language: java"
-        }
-    ]
-}
+[
+    {
+        "title": "Leidos",
+        "description": "UI Development Intern",
+        "type": "Experience"
+    },
+    {
+        "title": "Scriyb LLC",
+        "description": "Algorithm Developer",
+        "type": "Experience"
+    },
+    {
+        "title": "Vera.Zone",
+        "description": "Full Stack Developer",
+        "type": "Experience"
+    },
+    {
+        "title": "Cornell Rocketry Team",
+        "description": "Engineering Project Team",
+        "type": "Projects"
+    },
+    {
+        "title": "Medium Design Collective",
+        "description": "Restroom Signage Redesign",
+        "type": "Projects"
+    },
+    {
+        "title": "PWC Mutual Aid Group" ,
+        "description": "Web Developer",
+        "type": "Projects"
+    },
+    {
+        "title": "React Components",
+        "description": "Web Developer",
+        "type": "Projects"
+    },
+    {
+        "title": "Cornell Eastern Music Ensemble",
+        "description": "Webmaster",
+        "type": "Projects"
+    },
+    {
+        "title": "Intro Design & Prog for Web",
+        "description": "Skills: HTML, CSS, javascript, jQuery",
+        "type": "Classes",
+        "category": "Coding",
+        "content": "Most Content"
+    },
+    {
+        "title": "Intmd. Design & Prog for Web",
+        "description":"Skills: HTML, CSS,PHP, MySQL",
+        "type": "Classes",
+        "category": "Coding",
+        "content": "Most Content"
+    },
+    {
+        "title": "Functional Programming",
+        "description": "Language: OCaml",
+        "type": "Classes",
+        "category": "Coding",
+        "content": "Medium Amount of Content"
+    },
+    {
+        "title": "Obj-Oriented Programming",
+        "description": "Language: java",
+        "type": "Classes",
+        "category": "Coding",
+        "content": "Medium Amount of Content"
+    },
+    {
+        "title": "Algorithms",
+        "description": "java",
+        "type": "Classes",
+        "category": "Coding",
+        "content": "Medium Amount of Content"
+    },
+    {
+        "title": "Engineering Probability & Statistics",
+        "description": "Basic Statistics",
+        "type": "Classes",
+        "category": "Data Science",
+        "content": "Medium Amount of Content"
+    },
+    {
+        "title": "Intro to Data Science",
+        "description": "Skills: jupyter notebooks,......",
+        "type": "Classes",
+        "category": "Data Science",
+        "content": "Medium Amount of Content"
+    },
+    {
+        "title": "Networks",
+        "description": "Networks",
+        "type": "Classes",
+        "category": "Information Science",
+        "content": "Medium Amount of Content"
+    },
+    {
+        "title": "Information Ethic, Law, & Policy",
+        "description": "Policy Memos",
+        "type": "Classes",
+        "category": "Information Science",
+        "content": "Medium Amount of Content"
+    },
+    {
+        "title": "Law & Literature",
+        "description": "essays",
+        "type": "Classes",
+        "category": "Law",
+        "content": "Medium Amount of Content"
+    },
+    {
+        "title": "Roman Law",
+        "description": "law",
+        "type": "Classes",
+        "category": "Law",
+        "content": "Little Content"
+    },
+    {
+        "title": "Nature, Functions, & Limits of Law",
+        "description": "law",
+        "type": "Classes",
+        "category": "Law",
+        "content": "Medium Amount of Content"
+    }
+]
+
