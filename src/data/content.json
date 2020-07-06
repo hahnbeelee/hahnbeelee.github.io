@@ -1,21 +1,23 @@
 [
     {
+        "title": "Vera.Zone",
+        "description": "Full Stack Developer",
+        "type": "Experience",
+        "src": "https://i.ibb.co/KDGjNfy/vera-zone.png",
+        "to": "/vera-zone"
+    },
+    {
         "title": "Leidos",
         "description": "UI Development Intern",
         "type": "Experience",
-        "src": "https://i.ibb.co/K50JxrB/leidos.png"
+        "src": "https://i.ibb.co/K50JxrB/leidos.png",
+        "to": "/leidos"
     },
     {
         "title": "Scriyb LLC",
         "description": "Algorithm Developer",
         "type": "Experience",
         "src": "https://i.ibb.co/XpLJr9B/scriyb.png"
-    },
-    {
-        "title": "Vera.Zone",
-        "description": "Full Stack Developer",
-        "type": "Experience",
-        "src": "https://i.ibb.co/HD13prY/vera-zone.png"
     },
     {
         "title": "Cornell Rocketry Team",

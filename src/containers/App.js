@@ -4,6 +4,9 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 import NavBar from '../components/NavBar';
 import LandingPage from './LandingPage/LandingPage';
+import Leidos from './Leidos'
+import VeraZone from './VeraZone'
+
 import history from '../history';
 
 import '../styles/main.scss';
@@ -21,6 +24,8 @@ const App = () => (
         <NavBar />
         <Switch>
           <Route exact path="/" component={LandingPage} />
+          <Route path="/leidos" component={Leidos} />
+          <Route path="/vera-zone" component={VeraZone} />
         </Switch>
       </div>
     </BrowserRouter>

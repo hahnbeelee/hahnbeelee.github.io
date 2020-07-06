@@ -33,6 +33,7 @@ const MainContent = () => {
                         title= {content[i].title}
                         description={content[i].description}
                         src={content[i].src}
+                        to={content[i].to}
                     />
                 )
             }
@@ -81,11 +82,11 @@ const MainContent = () => {
             classes.sort((a, b) => a.title.localeCompare(b.title)) //sort alphabetically
             // format
             let formatted = []
-            for(let x of classes){
+            for(let clas of classes){
                 formatted.push(
                     <MyCard 
-                        title= {x.title}
-                        description={x.description}
+                        title= {clas.title}
+                        description={clas.description}
                     />
                 )
             }

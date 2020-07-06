@@ -1,29 +1,35 @@
-import React from 'react';
+import React from 'react'
 
-import { Card, Col } from 'antd';
-const { Meta } = Card;
+import { Link } from 'react-router-dom'
+import { Card, Col } from 'antd'
+
 const MyCard  = (props) => {
-    let {src, title, description} = props
-    const meta = {title: title, description: description};
-    if(src === undefined) {
-        src = "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-    }
+    const { Meta } = Card
+    let {to, src, title, description} = props
+    const meta = {title: title, description: description}
     return (
         <Col span={8} className="my-card">
-            <Card
-                hoverable
-                style={{ width: 300 }}
-                cover={
-                    <img
-                        alt={title}
-                        src={src}
-                    />
-                }
-            >
-            <Meta {...meta} />
-            </Card>
+            <Link to={to}>
+                <Card
+                    hoverable
+                    style={{ width: 300 }}
+                    cover={
+                        <img
+                            alt={title}
+                            src={src}
+                        />
+                    }
+                >
+                    <Meta {...meta} />
+                </Card>
+            </Link>
         </Col>
-    );
-};
+    )
+}
 
-export default MyCard;
+MyCard.defaultProps = {
+    to: '/',
+    src: 'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png'
+  };
+
+export default MyCard

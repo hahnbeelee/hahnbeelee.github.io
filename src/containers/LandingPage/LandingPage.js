@@ -10,8 +10,7 @@ const LandingPage = () => (
             <div class="text uk-text-center uk-padding">
                 <p>
                     I am Hahnbee Lee. I am an undergraduate at Cornell University double majoring in 
-                    Information Science & Computer Science and minoring in Law & Society. I am a
-                    creative as well as a technical person.
+                    Information Science & Computer Science and minoring in Law & Society.
                 </p>
             </div>
             <img class="uk-align-right@m uk-margin-remove-adjacent headshot" src={headshot} alt="Hahnbee's headshot"></img>
