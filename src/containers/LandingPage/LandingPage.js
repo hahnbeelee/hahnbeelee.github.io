@@ -1,22 +1,17 @@
-import React from 'react';
+import React from 'react'
 
-import headshot from '../../images/headshot.png';
-
-import MainContent from './MainContent';
+import MainContent from './MainContent'
 
 const LandingPage = () => (
-    <div>
-        <div class="parent uk-flex uk-padding-large uk-flex-center uk-grid-match uk-margin-auto" uk-height-match>
-            <div class="text uk-text-center uk-padding">
-                <p>
-                    I am Hahnbee Lee. I am an undergraduate at Cornell University double majoring in 
-                    Information Science & Computer Science and minoring in Law & Society.
-                </p>
-            </div>
-            <img class="uk-align-right@m uk-margin-remove-adjacent headshot" src={headshot} alt="Hahnbee's headshot"></img>
-        </div> 
+    <main id="landing">
+        <p id="name">
+            My name is Hahnbee
+        </p>
+        <p id="me">
+            I am passionate about creating elegant code and designs.
+        </p>
         <MainContent />
-    </div>
+    </main>
 )
 
 export default LandingPage;
