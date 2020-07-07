@@ -22,27 +22,32 @@
     {
         "title": "Cornell Rocketry Team",
         "description": "Engineering Project Team",
-        "type": "Projects"
+        "type": "Projects",
+        "src": "https://i.ibb.co/YRcXw88/crt.png"
     },
     {
         "title": "Medium Design Collective",
         "description": "Restroom Signage Redesign",
-        "type": "Projects"
+        "type": "Projects",
+        "src": "https://i.ibb.co/3TNqjgj/medium.png"
     },
     {
         "title": "PWC Mutual Aid Group" ,
         "description": "Web Developer",
-        "type": "Projects"
+        "type": "Projects",
+        "src": "https://i.ibb.co/RhKsfPG/pwc-ma.png"
     },
     {
         "title": "React Components",
         "description": "Web Developer",
-        "type": "Projects"
+        "type": "Projects",
+        "src": "https://i.ibb.co/Xbp7fkB/react.png"
     },
     {
         "title": "Cornell Eastern Music Ensemble",
         "description": "Webmaster",
-        "type": "Projects"
+        "type": "Projects",
+        "src": "https://i.ibb.co/gjj5YS1/ceme.jpg"
     },
     {
         "title": "Intro Design & Prog for Web",
