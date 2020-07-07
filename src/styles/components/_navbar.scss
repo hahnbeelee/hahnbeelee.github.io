@@ -1,0 +1,25 @@
+nav {
+    position: relative;
+
+    ul {
+        display: flex;
+        li {
+            justify-content: right;
+            .nav {
+                padding: 0 37px;
+            }
+        }
+        #home {
+            flex: 1; 
+            #a {
+                justify-content: left !important;
+                text-transform: none !important;
+                font-size: 21px;
+            }        
+        }
+    }
+}
+
+nav > :nth-child(3) {
+    margin-right: auto;
+  }
