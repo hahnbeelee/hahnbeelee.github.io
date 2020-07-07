@@ -3,9 +3,15 @@ import { Helmet } from 'react-helmet';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
+
 import LandingPage from './containers/LandingPage/LandingPage';
-import Leidos from './containers/Leidos'
-import VeraZone from './containers/VeraZone'
+import About from './containers/About'
+import Skills from './containers/Skills'
+import Work from './containers/Work'
+
+// articles
+import Leidos from './containers/articles/Leidos'
+import VeraZone from './containers/articles/VeraZone'
 
 import history from './history';
 
@@ -24,6 +30,11 @@ const App = () => (
         <NavBar />
         <Switch>
           <Route exact path="/" component={LandingPage} />
+          <Route path="/about" component={About} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/work" component={Work} />
+          
+          {/* articles */}
           <Route path="/leidos" component={Leidos} />
           <Route path="/vera-zone" component={VeraZone} />
         </Switch>
