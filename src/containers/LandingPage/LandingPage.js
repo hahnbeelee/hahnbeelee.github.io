@@ -18,7 +18,7 @@ const LandingPage = () => (
                 </div>
             </p>
             <p id="me">
-                I am passionate about creating elegant code and designs.
+                I am passionate about creating elegant code and designs
             </p>
         </div>
         <MainContent />
