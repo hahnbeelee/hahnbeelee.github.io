@@ -36,9 +36,9 @@ const About = () => {
             <Divider />
             <Title level={2}>You can find me on...</Title>
             <Paragraph className="about-para">
-                linkedIn | github | medium | vsco.
+                <a href="https://www.linkedin.com/in/hahnbee-lee/" rel="noopener noreferrer" target="_blank">linkedIn</a> | <a href="https://github.com/hahnbeelee" rel="noopener noreferrer" target="_blank">github</a> | <a href="https://medium.com/@hl985" rel="noopener noreferrer" target="_blank">medium</a> | <a href="https://vsco.co/hahnbeeeleee/journal/p/1" rel="noopener noreferrer" target="_blank">vsco.</a>
             </Paragraph>
-            <div className="para-title about-para">And contact me at HL985@cornell.edu</div>
+            <div className="para-title about-para">And contact me at <a href="mailto:hl985@cornell.edu">HL985@cornell.edu</a></div>
         </main>
     )
 }
