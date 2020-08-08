@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Col, Row } from 'antd';
+import { Typography } from 'antd';
 
 import blog from '../../images/react-components/blog-post.png';
 import search from '../../images/react-components/image-search.png';
