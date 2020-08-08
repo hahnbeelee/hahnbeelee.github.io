@@ -41,7 +41,8 @@
         "title": "React Components",
         "description": "Web Developer",
         "type": "Projects",
-        "src": "https://i.ibb.co/Xbp7fkB/react.png"
+        "src": "https://i.ibb.co/Xbp7fkB/react.png",
+        "to": "/react-components"
     },
     {
         "title": "Cornell Eastern Music Ensemble",

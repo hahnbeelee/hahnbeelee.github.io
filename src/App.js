@@ -12,7 +12,7 @@ import Work from './containers/Work'
 // articles
 import Leidos from './containers/articles/Leidos'
 import VeraZone from './containers/articles/VeraZone'
-
+import ReactComponents from './containers/articles/ReactComponents'
 import history from './history';
 
 import './styles/main.scss';
@@ -37,6 +37,7 @@ const App = () => (
           {/* articles */}
           <Route path="/leidos" component={Leidos} />
           <Route path="/vera-zone" component={VeraZone} />
+          <Route path="/react-components" component={ReactComponents} />
         </Switch>
       </div>
     </BrowserRouter>
