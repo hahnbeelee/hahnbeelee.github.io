@@ -103,6 +103,17 @@ const Leidos = () => {
         manual process by creating Ansible playbooks and adding them to the
         Ansible Tower. CHECK THIS.
       </Paragraph>
+      <Title level={2}>Conclusion</Title>
+      <Paragraph>
+        Overall, I learned a lot from this experience and am very thankful for
+        it! On top of gaining all of my technical skills, my biggest takeaway
+        was the experience of working in a rapid agile development process. This
+        was my first time creating PR's, and after many painful group projects
+        with merge conflicts, I really appreciated the process and began to
+        appreciate elegant code as I was getting more direct criticism on my
+        code on a weekly basis. I enjoyed the communication the team had through
+        daily standups and how it was a supportive learning environment.
+      </Paragraph>
     </main>
   );
 };
