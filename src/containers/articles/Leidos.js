@@ -2,6 +2,7 @@ import React from "react";
 import { Typography, Row, Col } from "antd";
 
 import leidos from "../../images/leidos.png";
+
 const Leidos = () => {
   const { Title, Text, Paragraph } = Typography;
   return (
