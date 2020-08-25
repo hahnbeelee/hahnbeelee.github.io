@@ -2,9 +2,21 @@ import React from "react";
 import { Typography, Row, Col } from "antd";
 
 import leidos from "../../images/leidos.png";
+import profile from "../../images/geoaxis-profile.png";
 
 const Leidos = () => {
   const { Title, Text, Paragraph } = Typography;
+
+  const styles = {
+    center: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      textAlign: "center",
+      marginBottom: 20,
+    },
+  };
+
   return (
     <main id="leidos">
       <Row>
@@ -73,13 +85,26 @@ const Leidos = () => {
         and analyzing the code base and determining which components already
         existed.
       </Paragraph>
-      {/* insert google slides */}
+      <div style={styles.center}>
+        <iframe
+          src="https://docs.google.com/presentation/d/e/2PACX-1vTRzy5mG0ndYIsRwgAZzjo9NIRxnV6W6jxW35n59cDxhHKPpYUGj-WIrRXpYeXXyz8pp_n4AcUdA40S/embed?start=false&loop=false&delayms=3000"
+          frameborder="0"
+          width="960"
+          height="569"
+          allowfullscreen="true"
+          mozallowfullscreen="true"
+          webkitallowfullscreen="true"
+          title="component map"
+        ></iframe>
+      </div>
       <Paragraph>
-        Unfortunately, the website INSERT WEBSITE LINK is proprietary and is not
-        accessible unless you have the correct credentials, but I was able to
-        snag this single screenshot of my creation:
+        Unfortunately, the <a href="https://geoaxis.nga.mil/">website</a> is not
+        accessible unless you have the correct credentials, but I do have this
+        single screenshot of my creation:
       </Paragraph>
-      {/* insert image÷ */}
+      <div style={styles.center}>
+        <img src={profile} alt="profile" style={{ width: 900 }} />
+      </div>
       <Paragraph>
         The show more/less buttons are interactive, and all the information
         displayed was hooked up using redux. It was predicted that this would
@@ -88,12 +113,13 @@ const Leidos = () => {
       </Paragraph>
       <Title level={3}>Implementing Storybook</Title>
       <Paragraph>
-        Then, I was assigned to add Storybook to the codebase. Storybook is
-        INSERT DESCRIPTION. For our team, we specifically wanted it because our
-        components folder was getting quite large and it was getting harder to
-        promote reusability and decrease repeat code. Additionally, Storybook
-        would allow the UX team to test and judge the front-end developers'
-        implementation of their designs.
+        Then, I was assigned to add{" "}
+        <a href="https://storybook.js.org/">Storybook</a> to the codebase.
+        Storybook is a UI component library. For our team, we specifically
+        wanted it because our components folder was getting quite large and it
+        was getting harder to promote reusability and decrease repeat code.
+        Additionally, Storybook would allow the UX team to test and judge the
+        front-end developers' implementation of their designs.
       </Paragraph>
       <Title level={3}>Automating Deployment with Ansible</Title>
       <Paragraph>
@@ -102,7 +128,7 @@ const Leidos = () => {
         (with an encroaching deadline), it was important that stakeholders and
         other teams can easily view our progress. Therefore, I automated a once
         manual process by creating Ansible playbooks and adding them to the
-        Ansible Tower. CHECK THIS.
+        Ansible Tower.
       </Paragraph>
       <Title level={2}>Conclusion</Title>
       <Paragraph>

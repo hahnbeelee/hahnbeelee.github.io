@@ -1,35 +1,40 @@
-import React from 'react'
+import React from "react";
 
-import { Link } from 'react-router-dom'
-import { Card, Col } from 'antd'
+import { Card, Col } from "antd";
 
-const MyCard  = (props) => {
-    const { Meta } = Card
-    let {to, src, title, description} = props
-    const meta = {title: title, description: description}
+const MyCard = (props) => {
+  const { Meta } = Card;
+  let { to, src, title, description } = props;
+  const meta = { title: title, description: description };
+  if (src === "") {
     return (
-        <Col span={8} className="my-card">
-            <Link to={to}>
-                <Card
-                    hoverable
-                    style={{ width: 300 }}
-                    cover={
-                        <img
-                            alt={title}
-                            src={src}
-                        />
-                    }
-                >
-                    <Meta {...meta} />
-                </Card>
-            </Link>
-        </Col>
-    )
-}
+      <Col span={8} className="my-card">
+        <a href={to}>
+          <Card style={{ width: 300 }}>
+            <Meta {...meta} />
+          </Card>
+        </a>
+      </Col>
+    );
+  }
+  return (
+    <Col span={8} className="my-card">
+      <a href={to}>
+        <Card
+          hoverable
+          style={{ width: 300 }}
+          cover={<img alt={title} src={src} />}
+        >
+          <Meta {...meta} />
+        </Card>
+      </a>
+    </Col>
+  );
+};
 
 MyCard.defaultProps = {
-    to: '/',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png'
-  };
+  to: "/",
+  src: "",
+};
 
-export default MyCard
+export default MyCard;
