@@ -1,11 +1,15 @@
-import React from 'react';
-import MainContent from './LandingPage/MainContent'
+import React from "react";
+import { Typography } from "antd";
+import MainContent from "./LandingPage/MainContent";
 const Work = () => {
-    return (
-        <main>
-            <MainContent />
-        </main>
-    )
-}
+  const { Title } = Typography;
 
-export default Work
+  return (
+    <main>
+      <Title>My Work</Title>
+      <MainContent />
+    </main>
+  );
+};
+
+export default Work;

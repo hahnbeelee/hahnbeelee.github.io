@@ -17,3 +17,11 @@ code {
 main {
   margin: 10px 100px 60px;
 }
+
+.divider {
+  display: inline-block;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.06);
+  margin: -27px 5px;
+  height: 16em;
+}
