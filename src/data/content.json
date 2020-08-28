@@ -17,7 +17,8 @@
     "title": "GoodStuff",
     "description": "Full Stack Development Intern",
     "type": "Experience",
-    "src": "https://i.ibb.co/mTjzm6W/Good-Stuff-Logo-2x.png"
+    "src": "https://i.ibb.co/mTjzm6W/Good-Stuff-Logo-2x.png",
+    "to": "/goodstuff"
   },
   {
     "title": "Cornell Rocketry Team",
