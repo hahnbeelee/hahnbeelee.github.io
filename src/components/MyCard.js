@@ -1,25 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Card, Col } from "antd";
 
-const MyCard = (props) => {
+const MyCard = props => {
   const { Meta } = Card;
   let { to, src, title, description } = props;
   const meta = { title: title, description: description };
   if (src === "") {
     return (
       <Col span={8} className="my-card">
-        <a href={to}>
+        <Link to={to}>
           <Card style={{ width: 300 }}>
             <Meta {...meta} />
           </Card>
-        </a>
+        </Link>
       </Col>
     );
   }
   return (
     <Col span={8} className="my-card">
-      <a href={to}>
+      <Link to={to}>
         <Card
           hoverable
           style={{ width: 300 }}
@@ -27,7 +28,7 @@ const MyCard = (props) => {
         >
           <Meta {...meta} />
         </Card>
-      </a>
+      </Link>
     </Col>
   );
 };

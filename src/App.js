@@ -14,7 +14,6 @@ import Leidos from "./containers/articles/Leidos";
 import VeraZone from "./containers/articles/VeraZone";
 import ReactComponents from "./containers/articles/ReactComponents";
 import GoodStuff from "./containers/articles/GoodStuff";
-import history from "./history";
 
 import "./styles/main.scss";
 
@@ -23,7 +22,7 @@ const App = () => (
     <Helmet titleTemplate="%s - Hahnbee Lee" defaultTitle="Hahnbee Lee">
       <meta name="description" content="Hahnbee Lee's portfolio" />
     </Helmet>
-    <BrowserRouter history={history}>
+    <BrowserRouter>
       <div>
         <NavBar />
         <Switch>
@@ -31,8 +30,6 @@ const App = () => (
           <Route path="/about" component={About} />
           <Route path="/skills" component={Skills} />
           <Route path="/work" component={Work} />
-
-          {/* articles */}
           <Route path="/leidos" component={Leidos} />
           <Route path="/vera-zone" component={VeraZone} />
           <Route path="/react-components" component={ReactComponents} />
