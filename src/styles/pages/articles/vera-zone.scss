@@ -1,0 +1,41 @@
+#vera-zone {
+  .photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-bottom: 20px;
+  }
+  .redesign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img {
+      width: 50%;
+      margin-bottom: 40px;
+    }
+    div {
+      text-align: center;
+    }
+  }
+  .ob-initials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    img {
+      width: 650px;
+      height: auto;
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+  .ob-func {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    div {
+      text-align: center;
+      padding: 20px;
+    }
+  }
+}
