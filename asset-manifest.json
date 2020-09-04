@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.b047f436.chunk.css",
-    "main.js": "/static/js/main.ca8bfa6e.chunk.js",
-    "main.js.map": "/static/js/main.ca8bfa6e.chunk.js.map",
+    "main.css": "/static/css/main.c07ff5e8.chunk.css",
+    "main.js": "/static/js/main.83eaccc9.chunk.js",
+    "main.js.map": "/static/js/main.83eaccc9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
     "static/css/2.1538a9e3.chunk.css": "/static/css/2.1538a9e3.chunk.css",
-    "static/js/2.1314cb77.chunk.js": "/static/js/2.1314cb77.chunk.js",
-    "static/js/2.1314cb77.chunk.js.map": "/static/js/2.1314cb77.chunk.js.map",
+    "static/js/2.9c464b4e.chunk.js": "/static/js/2.9c464b4e.chunk.js",
+    "static/js/2.9c464b4e.chunk.js.map": "/static/js/2.9c464b4e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3a0e413b609861def9fbcc61215949ff.js": "/precache-manifest.3a0e413b609861def9fbcc61215949ff.js",
+    "precache-manifest.b169513835d6b458eee070298ed2dc54.js": "/precache-manifest.b169513835d6b458eee070298ed2dc54.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1538a9e3.chunk.css.map": "/static/css/2.1538a9e3.chunk.css.map",
-    "static/css/main.b047f436.chunk.css.map": "/static/css/main.b047f436.chunk.css.map",
-    "static/js/2.1314cb77.chunk.js.LICENSE.txt": "/static/js/2.1314cb77.chunk.js.LICENSE.txt",
+    "static/css/main.c07ff5e8.chunk.css.map": "/static/css/main.c07ff5e8.chunk.css.map",
+    "static/js/2.9c464b4e.chunk.js.LICENSE.txt": "/static/js/2.9c464b4e.chunk.js.LICENSE.txt",
     "static/media/GoodStuffLogo_2x.png": "/static/media/GoodStuffLogo_2x.2003254b.png",
     "static/media/Redux.png": "/static/media/Redux.ad558686.png",
     "static/media/all3.png": "/static/media/all3.41a19c01.png",
+    "static/media/auth-1.png": "/static/media/auth-1.4aafb856.png",
+    "static/media/auth-3.gif": "/static/media/auth-3.0706bf88.gif",
     "static/media/binary-buttons.gif": "/static/media/binary-buttons.b46d8ffc.gif",
     "static/media/blog-post.png": "/static/media/blog-post.dae76ec3.png",
     "static/media/canva.png": "/static/media/canva.72ddf409.png",
@@ -50,6 +52,8 @@
     "static/media/react.png": "/static/media/react.0ad1d17f.png",
     "static/media/redesign-editmode.gif": "/static/media/redesign-editmode.4cb12eca.gif",
     "static/media/sass.png": "/static/media/sass.64f68b22.png",
+    "static/media/sign-in.png": "/static/media/sign-in.6eb4175e.png",
+    "static/media/sign-up.png": "/static/media/sign-up.2c4599d2.png",
     "static/media/single-choose.gif": "/static/media/single-choose.306866d8.gif",
     "static/media/testimonials.png": "/static/media/testimonials.e01e57b5.png",
     "static/media/user-flow-key.jpg": "/static/media/user-flow-key.fb8be9a1.jpg",
@@ -62,8 +66,8 @@
   "entrypoints": [
     "static/js/runtime-main.ceaf4b5f.js",
     "static/css/2.1538a9e3.chunk.css",
-    "static/js/2.1314cb77.chunk.js",
-    "static/css/main.b047f436.chunk.css",
-    "static/js/main.ca8bfa6e.chunk.js"
+    "static/js/2.9c464b4e.chunk.js",
+    "static/css/main.c07ff5e8.chunk.css",
+    "static/js/main.83eaccc9.chunk.js"
   ]
 }
