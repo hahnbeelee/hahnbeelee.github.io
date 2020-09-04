@@ -3,6 +3,10 @@ import { Typography, Row, Col } from "antd";
 
 import goodStuff from "../../images/GoodStuffLogo_2x.png";
 import awsAuth from "../../images/good-stuff/auth/prior-design.jpeg";
+import auth from "../../images/good-stuff/auth/auth-1.png";
+import signIn from "../../images/good-stuff/auth/sign-in.png";
+import signInGif from "../../images/good-stuff/auth/auth-3.gif";
+import signUp from "../../images/good-stuff/auth/sign-up.png";
 import userJourney from "../../images/good-stuff/sprint-2/user-journey.jpg";
 import key from "../../images/good-stuff/sprint-2/user-flow-key.jpg";
 
@@ -20,7 +24,7 @@ const GoodStuff = () => {
   };
 
   return (
-    <main id="goodstuff">
+    <main id="goodstuff" className="article">
       <Row>
         <Col span={18}>
           <Title>Full Stack Internship</Title>
@@ -90,8 +94,7 @@ const GoodStuff = () => {
         brining her designs to life.
       </Paragraph>
       <Paragraph>Here is the before:</Paragraph>
-      {/* INSERT PICTURES */}
-      <div style={styles.center}>
+      <div className="center">
         <img
           src={awsAuth}
           alt="how the authentication looked before the redesign"
@@ -99,6 +102,13 @@ const GoodStuff = () => {
         />
       </div>
       <Paragraph>And here is the after:</Paragraph>
+      <div className="centered-row" id="auth">
+        <img src={auth} alt="landing screen" />
+        <img src={signUp} alt="sign up screen" />
+        <img src={signIn} alt="sign in screen" />
+        <img src={signInGif} alt="sign in flow gif" />
+      </div>
+
       <Title level={3}>Sprint 2 - Designing the User Profile</Title>
       <Title level={4}>Understanding our target user</Title>
       <div style={styles.center}>
